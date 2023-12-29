@@ -115,27 +115,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Sample Code, Testing Connection
-        # for row in range(2,8):
-        #     num1 = int(sheets.values().get(spreadsheetId=SPREADSHEET_ID, range = f"Internships '24!A{row}").execute().get("values")[0][0])
-        #     num2 = int(sheets.values().get(spreadsheetId=SPREADSHEET_ID, range = f"Internships '24!B{row}").execute().get("values")[0][0])
-        #     calculation_result = num1 + num2
-        #     print(f"Processing: {num1} + {num2}")
-
-        #     sheets.values().update(spreadsheetId=SPREADSHEET_ID, range = f"Internships '24!C{row}",
-        #                            valueInputOption = "USER_ENTERED", body = {"values": [[f"{calculation_result}"]]}).execute()
-        #     sheets.values().update(spreadsheetId=SPREADSHEET_ID, range = f"Internships '24!D{row}",
-        #                            valueInputOption = "USER_ENTERED", body = {"values": [["Done"]]}).execute()
